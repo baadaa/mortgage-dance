@@ -444,7 +444,7 @@ const AffordabilityCalcPage: React.FC = () => {
 
   return (
     <Layout>
-      <Seo title="Mortgag Affordability Calculator" />
+      <Seo title="Mortgage Affordability Calculator" />
       <HeadingStyles>Mortgage Affordability Calculator</HeadingStyles>
       <WrapperStyle>
         <form className="baseForm">
