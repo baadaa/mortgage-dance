@@ -13,6 +13,10 @@ const HeaderStyles = styled.header`
   background-color: var(--headerBgColor);
   box-shadow: var(--base-shadow);
   .container {
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
     max-width: var(--max-width);
     width: 100%;
     position: relative;
@@ -193,24 +197,26 @@ const Header: React.FC = () => {
   return (
     <HeaderStyles>
       <div className="container">
-        <h2 style={{ margin: 0 }}>
-          <span className="letter">M</span>
-          <span className="letter">o</span>
-          <span className="letter">r</span>
-          <span className="letter">t</span>
-          <span className="letter">g</span>
-          <span className="letter">a</span>
-          <span className="letter">g</span>
-          <span className="letter">e</span>
-          <span className="icon">
-            <JigglePuff width={100} height={100} />
-          </span>
-          <span className="letter">D</span>
-          <span className="letter">a</span>
-          <span className="letter">n</span>
-          <span className="letter">c</span>
-          <span className="letter">e</span>
-        </h2>
+        <Link to="/">
+          <h2 style={{ margin: 0 }}>
+            <span className="letter">M</span>
+            <span className="letter">o</span>
+            <span className="letter">r</span>
+            <span className="letter">t</span>
+            <span className="letter">g</span>
+            <span className="letter">a</span>
+            <span className="letter">g</span>
+            <span className="letter">e</span>
+            <span className="icon">
+              <JigglePuff width={100} height={100} />
+            </span>
+            <span className="letter">D</span>
+            <span className="letter">a</span>
+            <span className="letter">n</span>
+            <span className="letter">c</span>
+            <span className="letter">e</span>
+          </h2>
+        </Link>
         <span className="menu">
           <button
             className={`hamburger hamburger--vortex ${

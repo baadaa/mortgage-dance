@@ -48,7 +48,9 @@ const MenuStyles = styled.div`
     border-radius: 15px;
     transition: box-shadow 0.2s, transform 0.2s;
     display: flex;
+    box-sizing: border-box;
     align-items: center;
+    border: 3px solid transparent;
     svg {
       margin-right: 20px;
       flex-shrink: 0;
@@ -69,7 +71,6 @@ const MenuStyles = styled.div`
     &:hover {
       transform: translateY(-3px);
       box-shadow: var(--hover-shadow);
-      animation: bgRotate 2s infinite;
     }
     @media screen and (max-width: 1024px) {
       h3 {
@@ -78,7 +79,7 @@ const MenuStyles = styled.div`
       }
       p {
         font-size: 0.75rem;
-        font-weight: bold;
+        font-weight: 600;
       }
     }
     @media screen and (max-width: 480px) {
@@ -90,20 +91,6 @@ const MenuStyles = styled.div`
     max-width: 550px;
     margin-left: auto;
     margin-right: auto;
-  }
-  @keyframes bgRotate {
-    0% {
-      background-color: #fff;
-    }
-    33% {
-      background-color: var(--lemon);
-    }
-    66% {
-      background-color: var(--sky);
-    }
-    100% {
-      background-color: #fff;
-    }
   }
 `;
 const IndexPage: React.FC = () => (

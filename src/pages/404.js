@@ -32,9 +32,6 @@ const NotFoundPage = () => {
   });
   const leftEyeRef = useRef();
   const rightEyeRef = useRef();
-  function handleMouseMove(ev) {
-    setMousePos({ left: ev.pageX, top: ev.pageY });
-  }
   useEffect(() => {
     const leftEye = leftEyeRef.current;
     const rightEye = rightEyeRef.current;
@@ -47,8 +44,8 @@ const NotFoundPage = () => {
   }, [mousePos]);
   return (
     <div
-      onMouseMove={(e) => handleMouseMove(e)}
       style={{ cursor: 'crosshair' }}
+      onMouseMove={(e) => setMousePos({ left: e.pageX, top: e.pageY })}
     >
       <Layout>
         <Seo title="404: Not found" />
