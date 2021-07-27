@@ -1,0 +1,89 @@
+/* // Variables for simple edits later // */
+:root {
+  --dance_speed: 0.5s;
+}
+
+/* // BODY SHAKE // */
+@keyframes bod-shake {
+  50% {
+    transform: translate(4px, 2px) rotateZ(6deg);
+  }
+}
+.body {
+  animation: bod-shake var(--dance_speed) infinite;
+}
+
+/* // RIGHT FOOT // */
+@keyframes right-foot-tap {
+  50% {
+    transform: translate(5px, 9px) rotateZ(3deg);
+  }
+}
+.right-foot {
+  animation: right-foot-tap ease var(--dance_speed) infinite;
+}
+
+/* // LEFT FOOT // */
+@keyframes left-foot-tap {
+  50% {
+    transform: translate(0px, -2px) rotate(-1deg);
+  }
+}
+.left-foot {
+  animation: left-foot-tap ease var(--dance_speed) infinite;
+}
+
+/* // HAIR BOUNCE // */
+@keyframes hair-bounce {
+  50% {
+    transform: translate(-2px, 1px) rotate(-3deg);
+  }
+}
+.hair {
+  animation: hair-bounce ease var(--dance_speed) infinite;
+}
+
+/* // LEFT ARM // */
+@keyframes left-arm-shake {
+  50% {
+    transform: translate(2px, 6px) rotate(3deg);
+  }
+}
+.left-arm {
+  animation: left-arm-shake ease var(--dance_speed) infinite;
+}
+
+/* // RIGHT ARM // */
+@keyframes right-arm-shake {
+  50% {
+    transform: translate(3px, 3px) rotate(3deg);
+  }
+}
+.right-arm {
+  animation: right-arm-shake ease var(--dance_speed) infinite;
+}
+
+/* // EYE PUPIL MOVEMENT // */
+@keyframes eye-shift {
+  50% {
+    transform: translate(2px, 1px);
+  }
+}
+.pupil {
+  animation: eye-shift ease var(--dance_speed) infinite;
+}
+
+#dancing {
+  animation: flip calc(var(--dance_speed) * 8) infinite;
+}
+
+@keyframes flip {
+  0%,
+  49.9999999% {
+    transform: rotateY(0deg);
+  }
+  50%,
+  99.9999999% {
+    transform: rotateY(180deg);
+  }
+}
