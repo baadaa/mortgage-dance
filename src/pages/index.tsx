@@ -106,9 +106,9 @@ const MenuStyles = styled.div`
     }
   }
 `;
-const UsingTypescript: React.FC = () => (
+const IndexPage: React.FC = () => (
   <Layout>
-    <Seo title="Using TypeScript" />
+    <Seo title="Dance with your mortgage" />
     <HeadingStyles>Choose your tune</HeadingStyles>
     <MenuStyles>
       {menuItems.map((item, index) => (
@@ -124,4 +124,4 @@ const UsingTypescript: React.FC = () => (
   </Layout>
 );
 
-export default UsingTypescript;
+export default IndexPage;
