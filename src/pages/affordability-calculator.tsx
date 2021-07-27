@@ -5,6 +5,7 @@ import Dinero from 'dinero.js';
 
 import styled from 'styled-components';
 
+import { PageProps } from 'gatsby';
 import Layout from '../components/layout';
 import Accordion from '../components/Accordion';
 import Seo from '../components/seo';
@@ -273,7 +274,8 @@ const WrapperStyle = styled.div`
   }
 `;
 
-const AffordabilityCalcPage: React.FC = () => {
+const AffordabilityCalcPage: React.FC<PageProps> = ({ location }) => {
+  const currentPath = location.pathname;
   const [grossAnnualIncome, setGrossAnnualIncome] = useState(
     Dinero({ amount: 6500000, currency: 'USD' })
   );
@@ -443,7 +445,7 @@ const AffordabilityCalcPage: React.FC = () => {
   };
 
   return (
-    <Layout>
+    <Layout path={currentPath}>
       <Seo title="Mortgage Affordability Calculator" />
       <HeadingStyles>Mortgage Affordability Calculator</HeadingStyles>
       <WrapperStyle>

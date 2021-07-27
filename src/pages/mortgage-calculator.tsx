@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import Dinero from 'dinero.js';
-
+import { PageProps } from 'gatsby';
 import styled from 'styled-components';
 
 import Layout from '../components/layout';
@@ -208,7 +208,8 @@ const WrapperStyle = styled.div`
   }
 `;
 
-const MortgageCalcPage: React.FC = () => {
+const MortgageCalcPage: React.FC<PageProps> = ({ location }) => {
+  const currentPath = location.pathname;
   const [homePrice, setHomePrice] = useState(
     Dinero({ amount: 52800000, currency: 'USD' })
   );
@@ -338,7 +339,7 @@ const MortgageCalcPage: React.FC = () => {
     },
   };
   return (
-    <Layout>
+    <Layout path={currentPath}>
       <Seo title="Mortgage Calculator" />
       <HeadingStyles>Mortgage Calculator</HeadingStyles>
       <WrapperStyle>

@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import Header from './header';
 import '../styles/global.css';
 
+type layoutProp = {
+  path?: string;
+};
 const LayoutStyles = styled.main`
   max-width: var(--max-width);
   margin-left: auto;
@@ -26,9 +29,9 @@ const FooterStyles = styled.footer`
     opacity: 1;
   }
 `;
-const Layout: React.FC = ({ children }) => (
+const Layout: React.FC<layoutProp> = ({ path = '', children }) => (
   <>
-    <Header />
+    <Header path={path} />
     <LayoutStyles>{children}</LayoutStyles>
     <FooterStyles>
       © {new Date().getFullYear()}, Built by

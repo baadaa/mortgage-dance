@@ -8,6 +8,9 @@ import menuItems from './menuItems';
 import '../assets/jigglypuff/jigglypuff.css';
 import '../styles/hamburgers.css';
 
+type headerProp = {
+  path?: string;
+};
 const HeaderStyles = styled.header`
   width: 100%;
   background-color: var(--headerBgColor);
@@ -163,6 +166,10 @@ const HeaderStyles = styled.header`
         text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
         border-left: 0.5em solid var(--lemon);
       }
+      &[data-active='true'] {
+        background-color: var(--plum700);
+        border-left: 0.5em solid var(--plum300);
+      }
       &.about {
         padding-top: 0.2em;
         margin-top: 0.5em;
@@ -192,7 +199,7 @@ const HeaderStyles = styled.header`
     }
   }
 `;
-const Header: React.FC = () => {
+const Header: React.FC<headerProp> = ({ path = '' }) => {
   const [menuIsActive, setMenuIsActive] = useState(false);
   return (
     <HeaderStyles>
@@ -233,11 +240,11 @@ const Header: React.FC = () => {
         <nav className={menuIsActive ? 'active' : ''}>
           <ul>
             {menuItems.map((item, index) => (
-              <li key={index}>
+              <li key={index} data-active={path === item.slug}>
                 <Link to={item.slug}>{item.title}</Link>
               </li>
             ))}
-            <li className="about">
+            <li className="about" data-active={path === '/about'}>
               <Link to="/about">About this project</Link>
             </li>
           </ul>
