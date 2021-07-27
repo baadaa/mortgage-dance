@@ -7,6 +7,10 @@
   "dependencies": {
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
+    "chart.js": "^3.5.0",
+    "date-fns": "^2.23.0",
+    "dayjs": "^1.10.6",
+    "dinero.js": "^1.9.0",
     "gatsby": "^3.10.1",
     "gatsby-plugin-gatsby-cloud": "^2.10.0",
     "gatsby-plugin-image": "^1.10.1",
@@ -19,11 +23,14 @@
     "gatsby-transformer-sharp": "^3.10.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-chartjs-2": "^3.0.4",
+    "react-datepicker": "^4.1.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
+    "@types/dinero.js": "^1.8.1",
     "@types/node": "^16.4.3",
     "@types/react-helmet": "^6.1.2",
     "@types/styled-components": "^5.1.11",

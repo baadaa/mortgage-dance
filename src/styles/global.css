@@ -588,9 +588,11 @@ pre tt:after {
 
 body {
   --turquoise: #2a6f6c;
+  --grass: #40bf8b;
   --eggplant: #843b91;
   --plum: #603597;
   --plum50: #f2ecf8;
+  --plum100: #e4d9f2;
   --plum200: #c9b3e5;
   --plum300: #ae8ed7;
   --plum700: #482871;
@@ -601,6 +603,8 @@ body {
   --lemon: #ffb000;
   --lemon100: #ffefcc;
   --lemon200: #ffdf99;
+  --mud: #595959;
+  --medium-gray: #b8b8b8;
   --berry: #c23f6b;
   --sky: #33a1ce;
   --sky600: #2880a4;
