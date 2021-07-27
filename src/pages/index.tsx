@@ -3,20 +3,32 @@ import * as React from 'react';
 import { Link } from 'gatsby';
 
 import styled from 'styled-components';
-import {
-  IconKnowledge,
-  IconBook,
-  IconMortgage,
-  IconAffordability,
-  IconTime,
-  IconLibrary,
-} from '../components/icons';
+
 import Layout from '../components/layout';
+import menuItems from '../components/menuItems';
 import Seo from '../components/seo';
 
 const HeadingStyles = styled.h1`
   text-align: center;
-  font-size: 30px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  margin-bottom: 2em;
+  padding: 0.6em 0;
+  color: var(--plum700);
+  border-bottom: 2px solid var(--plum200);
+  border-top: 2px solid var(--plum200);
+  @media screen and (max-width: 1024px) {
+    font-size: 0.8rem;
+    letter-spacing: 0.8em;
+  }
+  @media screen and (max-width: 768px) {
+    letter-spacing: 0.5em;
+  }
+  @media screen and (max-width: 550px) {
+    letter-spacing: 0.25em;
+  }
 `;
 const MenuStyles = styled.div`
   width: 100%;
@@ -57,6 +69,7 @@ const MenuStyles = styled.div`
     &:hover {
       transform: translateY(-3px);
       box-shadow: var(--hover-shadow);
+      animation: bgRotate 2s infinite;
     }
     @media screen and (max-width: 1024px) {
       h3 {
@@ -78,56 +91,27 @@ const MenuStyles = styled.div`
     margin-left: auto;
     margin-right: auto;
   }
+  @keyframes bgRotate {
+    0% {
+      background-color: #fff;
+    }
+    33% {
+      background-color: var(--lemon);
+    }
+    66% {
+      background-color: var(--sky);
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
 `;
 const UsingTypescript: React.FC = () => (
   <Layout>
     <Seo title="Using TypeScript" />
-    <HeadingStyles>What do you want to dance to?</HeadingStyles>
+    <HeadingStyles>Choose your tune</HeadingStyles>
     <MenuStyles>
-      {[
-        {
-          title: 'Mortgage Basics',
-          icon: <IconKnowledge color="var(--turquoise)" />,
-          color: 'var(--turquoise)',
-          subhead: 'What are some fundamentals you should know?',
-          slug: '/basics',
-        },
-        {
-          title: 'Glossary',
-          icon: <IconBook color="var(--eggplant)" />,
-          color: 'var(--eggplant)',
-          subhead: 'What do all these gibberish actually mean?',
-          slug: '/glossary',
-        },
-        {
-          title: 'Mortgage Calculator',
-          icon: <IconMortgage color="var(--plum)" />,
-          color: 'var(--plum)',
-          subhead: 'What will your monthly payment look like?',
-          slug: '/mortgage-calculator',
-        },
-        {
-          title: 'Affordability Calculator',
-          icon: <IconAffordability color="var(--orange)" />,
-          color: 'var(--orange)',
-          subhead: 'How much can you really afford?',
-          slug: '/affordability-calculator',
-        },
-        {
-          title: 'Amortization Schedule Calculator',
-          icon: <IconTime color="var(--berry)" />,
-          color: 'var(--berry)',
-          subhead: 'What will your principal and interest be over time?',
-          slug: '/amortization-calculator',
-        },
-        {
-          title: 'Other Resources',
-          icon: <IconLibrary color="var(--sky)" />,
-          color: 'var(--sky)',
-          subhead: 'What else should you know?',
-          slug: '/resources',
-        },
-      ].map((item, index) => (
+      {menuItems.map((item, index) => (
         <Link key={index} to={item.slug}>
           {item.icon}
           <div>

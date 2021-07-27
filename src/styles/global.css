@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&&display=swap&text=MortgageDance");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap&text=MortgageDance");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap");
 
 html {
   -ms-text-size-adjust: 100%;
@@ -84,9 +84,6 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
@@ -593,15 +590,25 @@ body {
   --turquoise: #2a6f6c;
   --eggplant: #843b91;
   --plum: #603597;
+  --plum50: #f2ecf8;
+  --plum200: #c9b3e5;
+  --plum300: #ae8ed7;
+  --plum700: #482871;
+  --plum800: #301a4c;
   --orange: #e4711e;
-  --yellow: #ffb000;
+  --orange100: #fae2d1;
+  --orange200: #f4c6a4;
+  --lemon: #ffb000;
+  --lemon100: #ffefcc;
+  --lemon200: #ffdf99;
   --berry: #c23f6b;
-  --sky: #2880a4;
+  --sky: #33a1ce;
+  --sky600: #2880a4;
   --base-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
   --hover-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
   --max-width: 1200px;
-  --bgColor: #ffefcc;
-  --headerBgColor: #ffb000;
+  --bgColor: var(--plum50);
+  --headerBgColor: var(--plum);
   --footerTextColor: #999;
   background-color: var(--bgColor);
 }
