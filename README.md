@@ -1,4 +1,6 @@
-# Super basic, non-professional guide to mortgage
+# Mortgage.Dance
+
+_Super basic, non-professional guide to mortgage_
 
 Mortgage can be frustrating and intimidating. Relax and dance with it. Built with Gatsby.
 
