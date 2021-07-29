@@ -1,0 +1,29 @@
+{
+  "letter": "n",
+  "terms": [
+    {
+      "term": "Negative Compensating Factor",
+      "meaning": "Compensating factors are strengths on a loan application that can help borrowers secure a loan. Negative compensating factors can do the opposite. Bankruptcies, foreclosures, late payments can all be considered negative compensating factors."
+    },
+    {
+      "term": "NMLS — Nationwide Mortgage Licensing System",
+      "meaning": "The NMLS is the nationwide mortgage licensing system. It is a single location for consumers, governments, employers and regulators find, update and research parties involved in the mortgage industry. Lenders and brokers use the NMLS to file company licensing and conduct reporting to government bodies. Loan officers use it to communicate with government bodies in keeping their licenses active. Consumers use the NMLS to see if there have been any actions taken against an organization or licensed individual. The consumer website for the NMLS is <a href=' http://www.nmlsconsumeraccess.org' target='_blank' rel='noreferrer noopener'>nmlsconsumeraccess.org</a>"
+    },
+    {
+      "term": "NOO — Non Owner Occupied",
+      "meaning": "An investment property that is not occupied by the mortgagor. Typically having a higher interest rate than owner occupied properties as they are more likely to default."
+    },
+    {
+      "term": "NOV — Notice of Value",
+      "meaning": "This is the final determination of a property's fair market value based on the VA appraisal. The appraised value of the home comes from an independent appraiser's comparison of the home to recent comparable home sales. If the home's appraised value comes in below the purchase price, buyers will need to renegotiate with the seller or walk away from the deal. Renegotiation is common, but veterans who walk away will get their earnest money back because of what's known as the VA Amendment to Contract, which protects buyers in the event of a low appraisal."
+    },
+    {
+      "term": "Note Rate",
+      "meaning": "This is another term for your interest rate, and it's separate from your Annual Percentage Rate (APR), which includes additional costs related to your transaction. The note rate reflects the cost of borrowing money from the mortgage lender. The VA doesn't set these rates, and lenders are free to set their own."
+    },
+    {
+      "term": "Note (Mortgage Note)",
+      "meaning": "The mortgage note is a 2 to 5 page document that outlines the loan details. At the very top middle of the first page it will say NOTE in all capital letters, followed by the property address, date, mortgage loan amount, monthly payment and loan term (15 years, 30 years, etc). It will state when the first payment is, when the last payment will be as well as the payment due dates. This is considered a major piece of the collateral that secures repayment of the loan."
+    }
+  ]
+}

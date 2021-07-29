@@ -13,8 +13,14 @@ type headerProp = {
 };
 const HeaderStyles = styled.header`
   width: 100%;
+  position: fixed;
+  z-index: 9;
   background-color: var(--headerBgColor);
   box-shadow: var(--base-shadow);
+  top: 0;
+  left: 0;
+  height: var(--nav-height);
+
   .container {
     a {
       color: inherit;

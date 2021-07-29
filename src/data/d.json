@@ -1,0 +1,41 @@
+{
+  "letter": "d",
+  "terms": [
+    {
+      "term": "DD-214",
+      "meaning": "This Defense Department document is also known as the Certificate of Release or Discharge from Active Duty. The DD-214 typically allows Regular Military veterans to verify their service history for benefits and helps qualified borrowers obtain their Certificate of Eligibility. Reservists and National Guard members don't have a single discharge certificate like the DD-214. They'll often need to provide their latest annual retirement points summary along with evidence of their honorable service to establish eligibility for VA loan benefits."
+    },
+    {
+      "term": "Disclosures",
+      "meaning": "A series of documents disclosing terms of the loan that will be provided to a borrower. Disclosures will be given a various points through out the process of taking out a mortgage. At the beginning of the application process you will receive a disclosure called the Truth in Lending disclosure, good faith estimate, and an initial escrow account disclosure.. At closing you will receive another disclosure, the HUD-1. These documents are required under RESPA."
+    },
+    {
+      "term": "Deed-in-Lieu of Foreclosure",
+      "meaning": "An alternative to straightforward foreclosure. With a deed-in-lieu of foreclosure, the borrower basically returns the house to the bank without the need for court proceedings or a formal foreclosure process. A deed-in-lieu will negatively affect your credit score."
+    },
+    {
+      "term": "Delinquent",
+      "meaning": "Another term for being late on your payments. Your loan can become delinquent when you miss a payment or don’t make a full payment by the due date. After you are delinquent for a certain period of time, a lender or servicer may begin the foreclosure process. The amount of time can vary by state. Federal rules may also apply to when the foreclosure may start."
+    },
+    {
+      "term": "Demand Feature",
+      "meaning": "The Closing Disclosure has a statement that reads 'Your loan has a demand feature,' which is checked 'yes' or 'no.' A demand feature permits the lender to require early repayment of the loan."
+    },
+    {
+      "term": "Discount Points",
+      "meaning": "Borrowers pay these to essentially buy a lower interest rate. A point is equal to 1 percent of the loan amount. Lenders might quote interest rates with and without points, so be sure to double check rates and points when comparing offers from multiple lenders. Paying points is relatively infrequent among most VA borrowers"
+    },
+    {
+      "term": "Down Payment",
+      "meaning": "The amount you pay toward the home upfront. You put a percentage of the home’s value down and borrow the rest through your mortgage loan. Generally, the larger the down payment you make, the lower the interest rate you will receive and the more likely you are to be approved for a loan."
+    },
+    {
+      "term": "Down Payment Programs of Grants",
+      "meaning": "typically refers to assistance provided by an organization such as a government or non-profit agency, to a homebuyer to assist them with the down payment for a home purchase. The funds may be provided as an outright grant or may require repayment, such as when the home is sold."
+    },
+    {
+      "term": "DTI — Debt-to-Income Ratio",
+      "meaning": "The ratio of the borrowers gross income to the debt owed. The expense amount is divided by the income amount. This results in a percentage. There are two types of DTI. the first is known as the front-end ratio. This indicates the percentage of income that is going towards housing expense's, such as PITI. The second type is known as the back-end ratio. This determines what percentage of income is used to pay debts. VA lending considers only the back-end ratio. The higher the percentage, regardless of the type of DTI used, the riskier the loan is for the lender. Caps on DTI ratio can vary by lender and other factors. VA buyers whose DTI ratio exceeds 41 percent need to meet a higher threshold for residual income."
+    }
+  ]
+}

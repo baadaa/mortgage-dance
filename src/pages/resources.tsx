@@ -37,6 +37,11 @@ const ResourcesPage: React.FC<PageProps> = ({ location }) => {
       <Seo title="Other Resources" />
       <HeadingStyles>Other Resources</HeadingStyles>
       Under development
+      <br /> - https://www.usvm.com/mortgage-terms/
+      <br /> - https://www.veteransunited.com/education/glossary/
+      <br /> -
+      https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/
+      <br /> - https://www.bankofamerica.com/mortgage/glossary/ (not used here)
     </Layout>
   );
 };

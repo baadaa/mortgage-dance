@@ -1,0 +1,49 @@
+{
+  "letter": "i",
+  "terms": [
+    {
+      "term": "IDTBS — Initial Disclosures To Be Signed",
+      "meaning": "IDTBS stands for Initial Disclosures To Be Signed. The Initial Disclosures reflecting the loan application, GFE, TIL, federal and state disclosures which are required to be signed by the borrower before submitting to underwriting. Hence, the initial disclosures, to be signed, because at the IDTBS point, they are not yet signed."
+    },
+    {
+      "term": "Index",
+      "meaning": "A benchmark interest rate that reflects general market conditions. The index changes based on the market. Changes in the index, along with your loan’s margin, determine the changes to the interest rate for an adjustable-rate mortgage loan."
+    },
+    {
+      "term": "Initial Adjustment Cap",
+      "meaning": "An initial adjustment cap is typically associated with adjustable rate mortgages (ARMs). This cap determines how much the interest rate can increase the first time it adjusts after the fixed-rate period expires. It’s common for this cap to be either two or five percent—meaning that at the first rate change, the new rate can’t be more than two (or five) percentage points higher than the initial rate during the fixed-rate period."
+    },
+    {
+      "term": "Initial Escrow Deposit",
+      "meaning": "The amount that you will pay at closing to start your escrow account, if required by your lender"
+    },
+    {
+      "term": "Initial Disclosures",
+      "meaning": "Initial disclosures are the preliminary disclosures that must be signed by the borrower. It outlines the initial terms of the mortgage application and includes federal and state required mortgage disclosures. The most important items to keep in mind in the initial disclosures are the 1003 loan application, GFE (good faith estimate), TIL (truth in lending) and program specific disclosures. Much of these same disclosures will be at the final closing using the final loan terms."
+    },
+    {
+      "term": "Inspection",
+      "meaning": "Buying a home can feature multiple types of inspections. Home inspections are the most common. You typically have the right to hire a home inspector to examine a property and point out its strengths and weaknesses. This is often especially helpful to test a home’s structural and mechanical systems including heating, ventilation, air conditioning, and electrical.<br /><br />These aren't required for a VA loan, but they're your best chance to identify any issues with a home before you sign on the dotted line. The VA appraisal includes a broad look at a property conditions, but it is not a substitute for a home inspection. For homebuyers with an inspection contingency in their purchase contract, the home inspection acts as an important negotiating tool in the event a home needs repairs.<br /><br />Some properties may need additional inspections, including ones for drinking water supplies, septic systems, pests and more."
+    },
+    {
+      "term": "Interest Rate",
+      "meaning": "This is the cost of of borrowing money. The interest rate on your loan is expressed as a percentage, and rates can vary widely depending on market conditions, the size of the loan, credit score and more. The VA does not set an interest rate, which means lenders are free to set their own rates. You might also hear this referred to as the 'note rate,' which helps differentiate it from the loan's Annual Percentage Rate (APR).<br /><br />VA loans continue to have the lowest average fixed interest rate on the market."
+    },
+    {
+      "term": "Interest Rate Cap",
+      "meaning": "An interest rate cap, sometimes referred to as an annual cap, is the maximum interest rate increase that can occur annually for an adjustable rate mortgage (ARM) even if the rate would have increased more under market interest rates. For example, if this cap is two percent, the new rate can’t be more than two percentage points higher than the previous rate."
+    },
+    {
+      "term": "IO — Interest Only",
+      "meaning": "A type of ARM where the entire payment goes toward interest and none goes towards the principle of the loan for the first 5-10 years. After which time the payment increases to include both interest and principle. In the past this has led to many foreclosures as the increase is drastic. It is no longer an available mortgage product."
+    },
+    {
+      "term": "IP — Investment Property",
+      "meaning": "A property that is purchased with the intention of using it as a source of income. This can be a long-term investment like an apartment complex in which rent is collected each month. It can also be a property that is purchased and fixed up with the intention on increasing the home's value, and then selling the property."
+    },
+    {
+      "term": "IRRRL — Interest Rate Reduction Refinance Loan",
+      "meaning": "An Interest Rate Reduction Refinance Loan is one of two options when refinancing a VA loan. An IRRRL is only available on a property in which there is already a VA loan. This involves refinancing the loan in order to get a lower interest rate and lower monthly payments. As with the Traditional VA loan there is a funding fee. The funding fee on IRRRLs is .5% unless the veteran collects disability from the VA, then this fee is waived. This may also be called a Streamline Refinance."
+    }
+  ]
+}

@@ -11,7 +11,7 @@ const LayoutStyles = styled.main`
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 45px 15px 15px 15px;
+  padding: calc(var(--nav-height) + 50px) 15px 15px 15px;
   min-height: calc(100vh - 200px);
 `;
 const FooterStyles = styled.footer`

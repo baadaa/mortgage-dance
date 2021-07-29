@@ -615,10 +615,32 @@ body {
   --headerBgColor: var(--plum);
   --footerTextColor: #999;
   background-color: var(--bgColor);
+  --nav-xl: 148px;
+  --nav-lg: 131px;
+  --nav-md: 114px;
+  --nav-sm: 90px;
+  --nav-xs: 84px;
+  --nav-xxs: 75px;
+  --nav-height: var(--nav-xl);
 }
 
-body.dark {
-  --bgColor: #202020;
-  --headerBgColor: #101010;
-  --footerTextColor: #999;
+@media screen and (max-width: 1024px) {
+  body {
+    --nav-height: var(--nav-lg);
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    --nav-height: var(--nav-md);
+  }
+}
+@media screen and (max-width: 550px) {
+  body {
+    --nav-height: var(--nav-sm);
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    --nav-height: var(--nav-xs);
+  }
 }

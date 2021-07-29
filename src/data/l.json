@@ -1,0 +1,57 @@
+{
+  "letter": "l",
+  "terms": [
+    {
+      "term": "LAPP — Lender Appraisal Processing Program",
+      "meaning": "This computer system allows authorized lenders to directly order and process VA appraisals, which are conducted by independent VA-approved appraisers."
+    },
+    {
+      "term": "Leave and Earnings Statement",
+      "meaning": "This is basically the Verification of Employment document for active duty service members. Prospective borrowers can obtain their LES online by using the MyPay portal at <a href='https://mypay.dfas.mil/mypay.aspx' target='_blank' rel='noreferrer noopener'>https://mypay.dfas.mil/mypay.aspx</a>."
+    },
+    {
+      "term": "Lenders Title Insurance",
+      "meaning": "Lender’s title insurance protects your lender against problems with the title to your property-such as someone with a legal claim against the home. Lender’s title insurance only protects the lender against problems with the title. To protect yourself, you may want to purchase owner’s title insurance."
+    },
+    {
+      "term": "LIBOR — London Interbank Offered Rate",
+      "meaning": "The average interest rate as estimated by leading banks in London. This rate is used as a benchmark for short-term interest rates."
+    },
+    {
+      "term": "Lifetime Adjustment Cap",
+      "meaning": "A lifetime adjustment cap is typically used with adjustable rate mortgages (ARMs). This cap determines how much the interest rate can increase in total, over the life of the loan. For example, if this cap is five percent, that means the rate can never be five percentage points higher than the initial rate. Some lenders may have a different or higher cap."
+    },
+    {
+      "term": "Listing Agent",
+      "meaning": "The real estate agent representing a home seller."
+    },
+    {
+      "term": "Loan Estimate",
+      "meaning": "Within three business days of receiving a complete loan application, lenders are required to send you this three-page form that contains key initial information about your new loan, including the interest rate, your monthly mortgage payment, and costs and fees to close. Borrowers can compare this to the Closing Disclosure they receive as they near their loan closing. Unlike the Closing Disclosure, the Loan Estimate features estimated costs."
+    },
+    {
+      "term": "Loan Modification",
+      "meaning": "A mortgage loan modification is a change in your loan terms. The modification is a type of loss mitigation. A modification can reduce your monthly payment to an amount you can afford. Modifications may involve extending the number of years you have to repay the loan, reducing your interest rate, and/or forbearing or reducing your principal balance. If you are offered a loan modification, be sure you know how it will change your monthly payments and the total amount that you will owe in the short-term and the long-term."
+    },
+    {
+      "term": "LO — Loan Officer",
+      "meaning": "Employees of lenders or brokers who find borrowers, take applications, sell, and advise them. They must pass a license test in each state they intent to conduct business in."
+    },
+    {
+      "term": "Loan Processor",
+      "meaning": "This person pulls together outstanding documents and information once a borrower has signed a purchase contact. Their job is to piece together loan applications for an underwriter."
+    },
+    {
+      "term": "Lock Fee",
+      "meaning": "Some lenders charge borrowers to lock their interest rate, depending on the time period, the rate and other factors. Veterans should ask lenders about lock fees when comparison shopping. Generally, you won't be able to lock in your interest rate until you're under contract on a home."
+    },
+    {
+      "term": "Loss Mitigation",
+      "meaning": "the steps mortgage servicers take to work with a mortgage borrower to avoid foreclosure. Loss mitigation refers to a servicer’s responsibility to reduce or “mitigate” the loss to the investor that can come from a foreclosure. Certain loss-mitigation options may help you stay in your home. Other options may help you leave your home without going through foreclosure. Loss mitigation options may include deed-in-lieu of foreclosure, forbearance, repayment plan, short sale, or a loan modification.<br /><br />If you are having trouble making your mortgage payments, or if you have been offered and are considering various loss mitigation options, reach out to a Department of Housing and Urban Development (HUD)-approved housing counselor.<br /><br />You can use the CFPB's <a href='https://www.consumerfinance.gov/find-a-housing-counselor/' target='_blank' rel='noreferrer noopener'>'Find a Counselor'</a> tool to get a list of housing counseling agencies in your area that are approved by HUD. You can also call the <a href='https://www.consumerfinance.gov/ask-cfpb/i146ve-heard-about-something-called-the-hope153-hotline-what146s-that-en-263/' target='_blank' rel='noreferrer noopener'>HOPE™ Hotline</a>, open 24 hours a day, seven days a week, at <a href='tel:8889954673'>(888) 995-HOPE (4673)</a>."
+    },
+    {
+      "term": "LTV — Loan To Value",
+      "meaning": "The percentage of the mortgage to the purchase price or the appraised value. This is figured by dividing the amount of the mortgage by the value of the home. This is used to establish the risk of the borrower defaulting on the loan."
+    }
+  ]
+}

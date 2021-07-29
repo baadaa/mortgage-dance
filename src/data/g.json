@@ -1,0 +1,25 @@
+{
+  "letter": "g",
+  "terms": [
+    {
+      "term": "GFE — Good Faith Estimate",
+      "meaning": "A document, that should be provided to a borrower within 3 business days of application, that details the estimated closing costs and terms of the mortgage. Once signed there are some fees that can still be changed up until the time of closing an others that cannot. Those fees that cannot be changed are origination fees, transfer taxes, and, after you lock in your interest rate, your credit or charge and adjusted origination fees."
+    },
+    {
+      "term": "GSEs — Government-Sponsored Enterprises",
+      "meaning": "These are federal financial services corporations, with Fannie Mae and Freddie Mac being the most familiar. Fannie Mae securitizes mortgages in the secondary market. Freddie Mac purchases, pools and sells mortgages to investors. Fannie and Freddie don't purchase VA mortgages.<br /><br />But VA loan limits are currently tied to the conforming loan limit, which is a cap above which Fannie and Freddie cannot purchase mortgages. These limits can change annually, and they're higher in more expensive parts of the country."
+    },
+    {
+      "term": "Government Recording Charges",
+      "meaning": "Fees assessed by state and local government agencies for legally recording your deed, mortgage and documents related to your home loan."
+    },
+    {
+      "term": "Guaranty",
+      "meaning": "This is essentially a form of insurance that the VA provides to lenders. The VA loan program promises to repay lenders a portion of the loan if a borrower defaults. The VA guaranty helps give lenders the confidence to make these $0 down loans along with a host of other big-time benefits."
+    },
+    {
+      "term": "GRM — Gross Rent Multiplier",
+      "meaning": "A way to quickly compare the value of income producing properties, investment properties, in a similar location. The GRM is calculated by dividing the sales price by the gross monthly rent."
+    }
+  ]
+}
