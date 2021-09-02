@@ -13,7 +13,7 @@ const AccordionSection = styled.div`
   border-radius: 1rem;
   margin-top: 1.5rem;
   .accordion {
-    box-shadow: var(--base-shadow);
+    /* box-shadow: var(--base-shadow); */
     cursor: pointer;
     display: flex;
     width: 100%;
@@ -26,7 +26,14 @@ const AccordionSection = styled.div`
     padding: 0 1.2rem;
     border-radius: 1rem;
     &:hover {
-      box-shadow: var(--hover-shadow);
+      box-shadow: var(--base-shadow);
+      background-color: var(--plum);
+      h3 {
+        color: #fff;
+      }
+      .accordion__icon {
+        fill: #fff;
+      }
     }
     &__title {
       color: var(--plum700);
@@ -48,7 +55,7 @@ const AccordionSection = styled.div`
       background-color: white;
       overflow: hidden;
       border-radius: 0 0 1rem 1rem;
-      background: var(--hp-off-white);
+      background: var(--plum50);
       transition: max-height 0.2s, box-shadow 0.2s;
       box-shadow: inset var(--base-shadow);
     }

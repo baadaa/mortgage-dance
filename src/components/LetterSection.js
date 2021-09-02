@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import parse from 'html-react-parser';
+import kebabCase from 'lodash.kebabcase';
 
 const LetterSectionStyle = styled.div`
   position: relative;
@@ -41,11 +42,15 @@ const LetterSectionStyle = styled.div`
   p {
     margin: 0;
   }
+  a {
+    color: var(--plum);
+  }
   h3 {
-    color: var(--hp-indigo);
+    color: var(--plum800);
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.4;
+    scroll-margin-top: calc(var(--nav-height) + 90px);
     display: flex;
     flex-direction: column;
     flex: 0 0 200px;
@@ -86,7 +91,6 @@ const LetterSectionStyle = styled.div`
   }
 `;
 const LetterSection = ({ section }) => {
-  const hash = section.letter === '#' ? 'num' : section.letter;
   const termsSorted = section.terms.sort((a, b) => (a.term > b.term ? 1 : -1));
   if (termsSorted.length === 0) return null;
   return (
@@ -95,7 +99,7 @@ const LetterSection = ({ section }) => {
       <div className="defs">
         {termsSorted.map((item, index) => (
           <div className="def" key={`${item}${index}`}>
-            <h3 id={`${hash}${index}`}>{item.term}</h3>
+            <h3 id={kebabCase(item.term)}>{item.term}</h3>
             <p>{parse(item.meaning)}</p>
           </div>
         ))}

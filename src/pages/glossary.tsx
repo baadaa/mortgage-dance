@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Highlighter from 'react-highlight-words';
 import { PageProps } from 'gatsby';
 import Fuse from 'fuse.js';
+import kebabCase from 'lodash.kebabcase';
 
 import styled from 'styled-components';
 
@@ -52,7 +53,7 @@ const SubNavStyle = styled.div`
   button.reset {
     position: absolute;
     cursor: pointer;
-    color: var(--hp-coolgray);
+    color: var(--mud);
     top: 0;
     right: 1rem;
     bottom: 0;
@@ -62,7 +63,7 @@ const SubNavStyle = styled.div`
     transition: color 0.2s;
     font-size: 2rem;
     &:hover {
-      color: var(--hp-legal-navy);
+      color: var(--plum);
     }
   }
   .searchArea {
@@ -132,9 +133,7 @@ const SubNavStyle = styled.div`
     li {
       line-height: 1.7;
     }
-    button {
-      outline: none;
-      border: none;
+    a {
       background-color: transparent;
       text-decoration: none;
       color: var(--hp-indigo);
@@ -143,7 +142,8 @@ const SubNavStyle = styled.div`
         background-color: var(--plum100);
         color: var(--plum800);
       }
-      &:focus {
+      &:focus,
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -177,28 +177,21 @@ const GlossaryPage: React.FC<PageProps> = ({ location }) => {
     shouldSort: true,
     keys: ['term'],
   });
-  const goFindItem = (e) => {
-    if (!isSearching) return;
-    const target = document.querySelector(e.currentTarget.dataset.id);
-    target.style.scrollMarginTop = 'calc(var(--nav-height) + 90px)';
-    target.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-      inline: 'start',
-    });
+  const clickedListItem = (e) => {
+    const selected = e.currentTarget.textContent;
+    setSearchTerm(selected);
     setIsSearching(false);
   };
   const displaySearchResults = () => {
     if (searchResults.length === 0) return null;
     const list = searchResults.map((term) => (
       <li key={term.item.id}>
-        <button type="button" data-id={term.item.id} onClick={goFindItem}>
+        <a href={`#${kebabCase(term.item.term)}`} onClick={clickedListItem}>
           <Highlighter
             searchWords={[...searchTerm]}
             textToHighlight={term.item.term}
           />
-          {/* <Highlight search={searchTerm}>{term.item.term}</Highlight> */}
-        </button>
+        </a>
       </li>
     ));
     return <ul>{list}</ul>;
@@ -217,6 +210,7 @@ const GlossaryPage: React.FC<PageProps> = ({ location }) => {
   const resetSearch = () => {
     setSearchTerm('');
     setSearchResults([]);
+    setIsSearching(false);
   };
   const checkEscape = useCallback(
     (e) => {
@@ -277,7 +271,6 @@ const GlossaryPage: React.FC<PageProps> = ({ location }) => {
             <div className="searchResultList" data-active={isSearching}>
               {displaySearchResults()}
             </div>
-            {/* {displaySearchResults()} */}
           </span>
         </div>
       </div>

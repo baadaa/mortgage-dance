@@ -2,7 +2,7 @@
   "letter": "f",
   "terms": [
     {
-      "term": "FF — Funding Fee (VA)",
+      "term": "FF — VA Funding Fee",
       "meaning": "A one time fee paid to the VA for the purchase of a loan. The amount of the fee is a percentage dependent on the type of loan, your military category, whether there is a down payment, and if you have uses your eligibility in the past. Those who collect disability from the VA are exempt from the funding fee. The larger the down-payment the smaller the funding fee. The funding fee is also larger after the first use on both new purchases and cash-out refinances. The funding fee for an Interest Rate Reduction Refinance Loan the funding fee is a constant regardless of whether it is the first use or any additional use. The funding fee is typically rolled into the loan. The funding fee is paid to the VA loan so that the benefits, like no down-payment, are available to veterans in the future."
     },
     {
@@ -50,11 +50,11 @@
       "meaning": "The amount that the property would sell for if put up for sale. This is based on the location, and existence of comparable property. This does not take into account preferences or circumstances."
     },
     {
-      "term": "FNMA — Federal National Mortgage Association (aka Fannie Mae)",
+      "term": "FNMA — Federal National Mortgage Association — aka Fannie Mae",
       "meaning": "More commonly referred to as Fannie Mae. FNMA is a government-sponsored organization created in 1938 in order to enhance the liquidity of lender's money. FNMA guarantee and purchases FHA and VA mortgages from smaller lenders. This allows the lenders to have less money tied up in mortgages and allows them to loan to more borrowers. The Federal Home Loan Mortgage Corporation (FHLMC) or Freddie Mac shares the same objective. However, FHLMC buys conventional mortgages from lenders."
     },
     {
-      "term": "The Federal Home Loan Mortgage Corporation (aka Freddie Mac)",
+      "term": "The Federal Home Loan Mortgage Corporation — aka Freddie Mac",
       "meaning": "The Federal Home Loan Mortgage Corporation (Freddie Mac) is a private corporation founded by Congress. Its mission is to promote stability and affordability in the housing market by purchasing mortgages from banks and other loan makers. The corporation is currently under conservatorship, under the direction of the Federal Housing Finance Agency (FHFA)."
     },
     {
@@ -74,7 +74,7 @@
       "meaning": "An individual that has not previously had ownership of a house. an individual who has not owned a home in the last three years can also be considered a first time home buyer."
     },
     {
-      "term": "First-Time Home Buyer (FTHB) Loan Programs",
+      "term": "First-Time Home Buyer — FTHB — Loan Programs",
       "meaning": "First-time home buyers (FTHB) may use a number of different types of loan programs to purchase their first home. Popular FTHB loans include programs offered by FHA, VA, USDA, Fannie Mae, and Freddie Mac with low down payments. Some programs define a FTHB as someone who hasn’t purchased a home in three years or more."
     }
   ]
