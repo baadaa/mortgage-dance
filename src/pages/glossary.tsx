@@ -136,7 +136,7 @@ const SubNavStyle = styled.div`
     a {
       background-color: transparent;
       text-decoration: none;
-      color: var(--hp-indigo);
+      color: var(--plum700);
       text-align: left;
       mark {
         background-color: var(--plum100);
