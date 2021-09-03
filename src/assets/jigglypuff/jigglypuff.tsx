@@ -1,3 +1,5 @@
+// NOTE: SVG animation borrowed from https://codepen.io/kristyjy/full/vEjGXE
+
 import React from 'react';
 
 type JigglyProps = {

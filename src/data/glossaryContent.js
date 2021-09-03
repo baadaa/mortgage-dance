@@ -1,3 +1,5 @@
+// NOTE: Terms and definitions collected from multiple sources online
+
 import termsA from './a.json';
 import termsB from './b.json';
 import termsC from './c.json';

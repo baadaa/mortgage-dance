@@ -1,3 +1,5 @@
+// NOTE: Consider implementing something like this: https://codepen.io/rniswonger/pen/LYWVzwQ
+
 import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';

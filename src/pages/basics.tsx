@@ -1,4 +1,5 @@
-// If you don't want to use TypeScript you can delete this file!
+// TODO: Add content
+
 import React from 'react';
 import { PageProps } from 'gatsby';
 

@@ -1,4 +1,5 @@
-// If you don't want to use TypeScript you can delete this file!
+// NOTE: Largely based on https://www.bankrate.com/calculators/mortgages/mortgage-calculator.aspx
+
 import React, { useState } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import Dinero from 'dinero.js';
